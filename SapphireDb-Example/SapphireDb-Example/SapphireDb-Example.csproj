@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>SapphireDb_Example</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FileContextCore" Version="3.2.2" />
+      <PackageReference Include="SapphireDb" Version="1.0.5" />
+    </ItemGroup>
+
+</Project>
