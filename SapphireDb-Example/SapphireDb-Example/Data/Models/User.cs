@@ -10,6 +10,6 @@ namespace SapphireDb_Example.Data.Models
 
         public string LastName { get; set; }
 
-        public List<Notice> Notices { get; set; }
+        public virtual List<Notice> Notices { get; set; }
     }
 }

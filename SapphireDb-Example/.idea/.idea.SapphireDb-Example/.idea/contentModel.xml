@@ -18,6 +18,11 @@
             <e p="Notice.cs" t="Include" />
             <e p="User.cs" t="Include" />
           </e>
+          <e p="Store" t="Include">
+            <e p="Category.json" t="Include" />
+            <e p="Notice.json" t="Include" />
+            <e p="User.json" t="Include" />
+          </e>
           <e p="TodoContext.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">

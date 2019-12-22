@@ -48,3 +48,6 @@ C:\Users\morri\Documents\Projects\productive\SapphireDb\Example-AspNetCore\Sapph
 C:\Users\morri\Documents\Projects\productive\SapphireDb\Example-AspNetCore\SapphireDb-Example\SapphireDb-Example\obj\Debug\netcoreapp3.1\SapphireDb-Example.csproj.CopyComplete
 C:\Users\morri\Documents\Projects\productive\SapphireDb\Example-AspNetCore\SapphireDb-Example\SapphireDb-Example\obj\Debug\netcoreapp3.1\SapphireDb-Example.dll
 C:\Users\morri\Documents\Projects\productive\SapphireDb\Example-AspNetCore\SapphireDb-Example\SapphireDb-Example\obj\Debug\netcoreapp3.1\SapphireDb-Example.pdb
+C:\Users\morri\Documents\Projects\productive\SapphireDb\Example-AspNetCore\SapphireDb-Example\SapphireDb-Example\bin\Debug\netcoreapp3.1\Data\Store\Category.json
+C:\Users\morri\Documents\Projects\productive\SapphireDb\Example-AspNetCore\SapphireDb-Example\SapphireDb-Example\bin\Debug\netcoreapp3.1\Data\Store\Notice.json
+C:\Users\morri\Documents\Projects\productive\SapphireDb\Example-AspNetCore\SapphireDb-Example\SapphireDb-Example\bin\Debug\netcoreapp3.1\Data\Store\User.json

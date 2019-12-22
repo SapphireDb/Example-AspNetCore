@@ -9,11 +9,11 @@ namespace SapphireDb_Example.Data.Models
         [ForeignKey("User")]
         public int UserId { get; set; }
         
-        public User User { get; set; }
+        public virtual User User { get; set; }
 
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
 
-        public Category Category { get; set; }
+        public virtual Category Category { get; set; }
     }
 }
