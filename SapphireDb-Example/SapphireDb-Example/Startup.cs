@@ -33,6 +33,7 @@ namespace SapphireDb_Example
                 CanExecuteCommand = (command, information) => true
             };
 
+            services.AddCors();
 
             services.AddSapphireDb(options)
                 .AddContext<TodoContext>(cfg =>
@@ -47,6 +48,8 @@ namespace SapphireDb_Example
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(cfg => cfg.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+            
             app.UseSapphireDb();
             
             app.UseRouting();
