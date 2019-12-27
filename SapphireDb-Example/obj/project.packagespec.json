@@ -1,13 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example\\SapphireDb-Example.csproj",
+    "projectUniqueName": "C:\\Users\\mjanatzek\\Documents\\Projects\\private\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
     "projectName": "SapphireDb-Example",
-    "projectPath": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example\\SapphireDb-Example.csproj",
-    "outputPath": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example\\obj\\",
+    "projectPath": "C:\\Users\\mjanatzek\\Documents\\Projects\\private\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
+    "outputPath": "C:\\Users\\mjanatzek\\Documents\\Projects\\private\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -57,7 +57,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
     }
   }
 }

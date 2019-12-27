@@ -2101,7 +2101,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration.FileExtensions/2.2.0": {
-      "sha512": "BnkmTopJ7m+p0/EBshdJmoWroUvMlu+oA+bDvzEWh3WA9rOYdnTZueQ7Ap1oSfUnHnPBnuWae/ED8hHlM/sQxA==",
+      "sha512": "1cO9Ca+lLh7mRTbJYEXnGPqoVMt/71BM7zmcZx6VOFLEBAfpOej/isDtgqRYhDcMkLaS9vn9pXerp41fTO9y1w==",
       "type": "package",
       "path": "microsoft.extensions.configuration.fileextensions/2.2.0",
       "files": [
@@ -2114,7 +2114,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration.Json/2.2.0": {
-      "sha512": "CqqFzpFuW9rOWOHI9c3JrGrOOogfLRrGTWVU2AIFkxXRQ/bAg5lL3WabkVEywmTRo58AI3p6sT0ACNy9s279VA==",
+      "sha512": "vqJEFHHDVTDhjTTdX8QZWF75Hw9bFLbmRcjRbXtmQLrFBvcTzuS9w1jJGWjrgR1UQ7YpuJdhcDXzhxorqkR1Ig==",
       "type": "package",
       "path": "microsoft.extensions.configuration.json/2.2.0",
       "files": [
@@ -5307,23 +5307,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\morri\\.nuget\\packages\\": {},
-    "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\mjanatzek\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example\\SapphireDb-Example.csproj",
+      "projectUniqueName": "C:\\Users\\mjanatzek\\Documents\\Projects\\private\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
       "projectName": "SapphireDb-Example",
-      "projectPath": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example\\SapphireDb-Example.csproj",
-      "packagesPath": "C:\\Users\\morri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example\\obj\\",
+      "projectPath": "C:\\Users\\mjanatzek\\Documents\\Projects\\private\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
+      "packagesPath": "C:\\Users\\mjanatzek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mjanatzek\\Documents\\Projects\\private\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\morri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mjanatzek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5374,7 +5374,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
