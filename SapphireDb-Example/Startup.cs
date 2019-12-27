@@ -28,14 +28,9 @@ namespace SapphireDb_Example
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            SapphireDatabaseOptions options = new SapphireDatabaseOptions
-            {
-                CanExecuteCommand = (command, information) => true
-            };
-
             services.AddCors();
 
-            services.AddSapphireDb(options)
+            services.AddSapphireDb()
                 .AddContext<TodoContext>(cfg =>
                     cfg.UseFileContextDatabase(location: Path.Combine(_environment.ContentRootPath, "Data", "Store")));
         }

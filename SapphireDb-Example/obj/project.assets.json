@@ -796,10 +796,9 @@
           }
         }
       },
-      "SapphireDb/1.0.5": {
+      "SapphireDb/1.0.6": {
         "type": "package",
         "dependencies": {
-          "FileContextCore": "3.2.2",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Http.Features": "3.1.0",
@@ -2752,18 +2751,17 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "SapphireDb/1.0.5": {
-      "sha512": "9DxyUxJFmPIGcfgpaxR4XjPE/i+Gt6uLi6Ir/Y4ORPocLKlTx0cQSkEiRkxXkKC+XdnmpEKbDDrJoTrqwr11ag==",
+    "SapphireDb/1.0.6": {
+      "sha512": "C8gxgnAQ16bcocOGkopweySP2mVM11scNKgXmvu55r6ybYYLjLUn+ZXvFNAGKiYr0bS8Oe9wXpaerNZ2Qc0bUg==",
       "type": "package",
-      "path": "sapphiredb/1.0.5",
+      "path": "sapphiredb/1.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "README.md",
         "icon.png",
         "lib/netcoreapp3.1/SapphireDb.dll",
-        "sapphiredb.1.0.5.nupkg.sha512",
+        "sapphiredb.1.0.6.nupkg.sha512",
         "sapphiredb.nuspec"
       ]
     },
@@ -5303,7 +5301,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "FileContextCore >= 3.2.2",
-      "SapphireDb >= 1.0.5"
+      "SapphireDb >= 1.0.6"
     ]
   },
   "packageFolders": {
@@ -5353,7 +5351,7 @@
           },
           "SapphireDb": {
             "target": "Package",
-            "version": "[1.0.5, )"
+            "version": "[1.0.6, )"
           }
         },
         "imports": [
