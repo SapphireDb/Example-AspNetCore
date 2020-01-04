@@ -1,17 +1,15 @@
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using FileContextCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Console;
 using SapphireDb.Extensions;
-using SapphireDb.Models;
-using SapphireDb_Example.Data;
+using SapphireDb_Example.Data.Chat;
 
 namespace SapphireDb_Example
 {
@@ -23,30 +21,32 @@ namespace SapphireDb_Example
         {
             _environment = environment;
         }
+
+        public static readonly ILoggerFactory loggerFactory = LoggerFactory.Create(b => b.AddConsole());
         
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
-
+            
             services.AddSapphireDb()
-                .AddContext<TodoContext>(cfg =>
-                    cfg.UseFileContextDatabase(location: Path.Combine(_environment.ContentRootPath, "Data", "Store")));
+                .AddContext<ChatContext>(cfg =>
+                    cfg.UseFileContextDatabase(location: Path.Combine(_environment.ContentRootPath, "Data", "Chat", "Store")));
+                    // cfg.UseLoggerFactory(loggerFactory).UseNpgsql("User ID=realtime;Password=pw1234;Host=localhost;Port=5432;Database=demo;"));
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ChatContext context)
         {
+            context.Database.EnsureCreated();
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
             app.UseCors(cfg => cfg.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
-            
+
             app.UseSapphireDb();
-            
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

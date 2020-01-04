@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mjanatzek\\Documents\\Projects\\private\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj": {}
+    "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mjanatzek\\Documents\\Projects\\private\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj": {
+    "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mjanatzek\\Documents\\Projects\\private\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
+        "projectUniqueName": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
         "projectName": "SapphireDb-Example",
-        "projectPath": "C:\\Users\\mjanatzek\\Documents\\Projects\\private\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
-        "packagesPath": "C:\\Users\\mjanatzek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mjanatzek\\Documents\\Projects\\private\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\obj\\",
+        "projectPath": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
+        "packagesPath": "C:\\Users\\morri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mjanatzek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\morri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,9 +45,13 @@
               "target": "Package",
               "version": "[3.2.2, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "SapphireDb": {
               "target": "Package",
-              "version": "[1.0.6, )"
+              "version": "[1.1.1, )"
             }
           },
           "imports": [
@@ -68,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
