@@ -6,7 +6,7 @@ namespace SapphireDb_Example.Data.Chat
 {
     public class ChatContext : SapphireDbContext
     {
-        public ChatContext(DbContextOptions options, SapphireDatabaseNotifier notifier) : base(options, notifier)
+        public ChatContext(DbContextOptions<ChatContext> options, SapphireDatabaseNotifier notifier) : base(options, notifier)
         {
         }
 

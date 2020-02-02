@@ -2,19 +2,18 @@
 using System.ComponentModel.DataAnnotations;
 using SapphireDb.Attributes;
 
-namespace SapphireDb_Example.Data.Chat.Models
+namespace SapphireDb_Example.Data
 {
     [UpdateEvent(nameof(OnUpdate))]
     public class Base
     {
         public Base()
         {
-            Id = Guid.NewGuid().ToString();
             CreatedOn = DateTime.Now;
         }
         
         [Key]
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public DateTime CreatedOn { get; set; }
         

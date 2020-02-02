@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
+    "projectUniqueName": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Examples\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
     "projectName": "SapphireDb-Example",
-    "projectPath": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
-    "outputPath": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Example-AspNetCore\\SapphireDb-Example\\obj\\",
+    "projectPath": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Examples\\Example-AspNetCore\\SapphireDb-Example\\SapphireDb-Example.csproj",
+    "outputPath": "C:\\Users\\morri\\Documents\\Projects\\productive\\SapphireDb\\Examples\\Example-AspNetCore\\SapphireDb-Example\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,7 +40,7 @@
         },
         "SapphireDb": {
           "target": "Package",
-          "version": "[1.1.1, )"
+          "version": "[1.3.0, )"
         }
       },
       "imports": [
