@@ -26,14 +26,11 @@
               <e p="Message.cs" t="Include" />
               <e p="User.cs" t="Include" />
             </e>
-            <e p="Store" t="Include">
-              <e p="Message.json" t="Include" />
-              <e p="User.json" t="Include" />
-            </e>
+            <e p="Store" t="Include" />
           </e>
         </e>
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="netcoreapp3.1" t="Include">
               <e p="SapphireDb-Example.AssemblyInfo.cs" t="Include" />
             </e>
