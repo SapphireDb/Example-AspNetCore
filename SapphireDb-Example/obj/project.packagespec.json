@@ -32,15 +32,15 @@
       "dependencies": {
         "FileContextCore": {
           "target": "Package",
-          "version": "[3.2.2, )"
+          "version": "[3.3.0, )"
         },
         "Npgsql.EntityFrameworkCore.PostgreSQL": {
           "target": "Package",
-          "version": "[3.1.0, )"
+          "version": "[3.1.2, )"
         },
         "SapphireDb": {
           "target": "Package",
-          "version": "[1.3.0, )"
+          "version": "[2.1.0, )"
         }
       },
       "imports": [

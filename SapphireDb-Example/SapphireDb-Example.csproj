@@ -6,9 +6,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="FileContextCore" Version="3.2.2" />
-      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.0" />
-      <PackageReference Include="SapphireDb" Version="1.3.0" />
+      <PackageReference Include="FileContextCore" Version="3.3.0" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.2" />
+      <PackageReference Include="SapphireDb" Version="2.1.0" />
     </ItemGroup>
 
     <ItemGroup>
